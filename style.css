@@ -1,0 +1,163 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 100%;
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.w{
+    height: 270px;
+    width: 270px;
+    background-color: saddlebrown;
+    z-index: -35;
+    border-radius: 50%;
+    align-items: center;
+    position: absolute;
+}
+div.box{
+    height: 260px;
+    width: 260px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    align-items: center;
+}
+div.box > div.boxm{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+
+    background-color: black;
+
+    justify-content:center;
+}
+.h1{
+    position: absolute;
+    color: black;
+    top: 12pc;
+    right: 41.4pc;
+}
+.h2{
+   position: absolute;
+    color: black;
+    top: 13.5pc;
+    right: 38.2pc;
+}
+.h3{
+   position: absolute;
+    color: black;
+    top: 16.3pc;
+    right: 36pc;
+}
+.h4{
+    position: absolute;
+    top: 19.7pc;
+   right: 35.4pc;
+    color: black;
+
+}
+.h5{
+    position: absolute;
+    top: 23.2pc;
+    right: 37pc;
+    color: black;
+}
+.h6{
+    position: absolute;
+    top: 25.3pc;
+    right: 40pc;
+    color: black;
+}
+.h7{
+    position: absolute;
+    top: 25.3pc;
+    right: 43pc;
+    color: black;
+}
+.h8{
+    position: absolute;
+     top: 24.3pc;
+    right: 46pc;
+    color: black;
+}
+.h9{
+    position: absolute;
+       top: 21.3pc;
+    right: 48pc;
+    color: black;
+}
+.h10{
+    position: absolute;
+      top: 18pc;
+    right: 47.7pc;
+    color: black;
+}
+.h11{
+    position: absolute;
+      top: 14.6pc;
+    right: 47pc;
+    color: black;
+}
+.h12{
+    position: absolute;
+       top: 12.3pc;
+    right: 44.5pc;
+    color: black;
+}
+.box1{
+   position: absolute;
+       top: 19.3pc;
+    right: 41.6pc;
+    width: 13px;
+    height: 2%;
+    border-radius: 50%;
+    background-color: sienna;
+}
+.box2{
+     position: absolute;
+       top: 16.5pc;
+    right: 41pc;
+    height:8%;
+    border-right: 2px solid sienna;
+    background-color: sienna;
+     animation: bom 4s linear infinite;
+     transform: translateY(-16, -16);
+}
+@keyframes bom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box3{
+   position: absolute;
+       top: 15pc;
+    right: 42pc;
+   height: 70px;
+    border-right: 2px solid sienna;
+    background-color: sienna;
+     animation: bom 4s linear infinite;
+}
+@keyframes bom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
